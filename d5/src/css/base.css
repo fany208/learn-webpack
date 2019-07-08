@@ -1,0 +1,13 @@
+html{
+    background: red;
+}
+
+.box{
+    /*compose是配合css modules使用*/
+    composes: bigBox from './common.css';
+    width: 240px;
+    height: 240px;
+    background: #333333;
+    border-radius: 10px;
+}
+

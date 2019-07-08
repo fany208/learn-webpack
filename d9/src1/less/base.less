@@ -1,0 +1,41 @@
+@homecolor: green;
+html{
+    background: @homecolor;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: #333333;
+    border-radius: 10px;
+    display: flex;
+}
+
+.bigBox{
+    height: 400px;
+    width: 400px;
+    border: 5px solid #000000;
+    color: #000000;
+    > div{
+        width: 120px;
+        height: 120px;
+        float: left;
+    }
+    .img1{
+        background: url('../assets/imgs/1.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    .img2{
+        background: url('../assets/imgs/2.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+    .img3{
+        background: url('../assets/imgs/3.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    .img4{
+        background: url('../assets/imgs/1.png') no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
