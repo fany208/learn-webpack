@@ -56,7 +56,7 @@ _二_、Babel打包es6/7代码
 _三_、 提取公共代码（针对多entry才有效）
 -
 ### CommonsChunkPlugin
-- 减少荣誉代码
+- 减少冗余代码
 - 提高加载速度
 ### 配置
 - webpack.optimize.CommonsChunkPlugin(options)
