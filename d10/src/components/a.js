@@ -11,15 +11,17 @@
 //     `
 // }
 
-export function componentA() {
+export function componentA () {
     let a = document.createElement('ul')
     a.innerHTML = `
         <li>2</li>
         <li>3</li>
         <li>4</li>
         <li>4</li>
+        <li>4</li>
+        <li>4</li>
+        <li>4</li>
         <li>5</li>
     `
-    return a;
+    return a
 }
-

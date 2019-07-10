@@ -185,26 +185,25 @@ _九_、HTML in Webpack
 - HTML中引入图片。html-loader和&lt;img src="${require('./src/assets/imgs/5.png')}"&gt;两种方式
 - 配合优化
 
-## 搭建开发环境
-### **webpack watch mode**
-### **webpack-dev-server** 
-#### 一、提供的功能
-1. live loading
-2. 路径重定向
-3. 支持https
-4. 浏览器显示编译错误
-5. 接口代理
-6. 模块热更新
-#### 二、配置项
-##### 1. devServer
--  inline
--  conentBase
--  port
--  historyApiFallback
--  https
--  proxy
--  hot
-**express + webpack-dev-middleware**
+==示例代码：d9目录下==
+
+_十_、开发环境配置
+-
+### webpack watch mode
+### webpack-dev-server
+#### 1、提供的功能
+- live loading
+- 路径重定向
+- 支持https
+- 浏览器显示编译错误
+- 接口代理
+- 模块热更新
+#### 2、配置项
+##### 1). devServer
+##### 2). devTool
+##### 3). eslint检查代码格式
+
+==示例代码：d10目录下==
 
 ![](https://codimd.mucang.cn/uploads/upload_1a84712928307a96b1329f68b9000a55.png)
 ![](https://codimd.mucang.cn/uploads/upload_dc89c6a107f5a78ec897d4d1cc7c43d7.png)
