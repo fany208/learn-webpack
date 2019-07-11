@@ -20,7 +20,7 @@ Webpack 的几个核心概念
 
 _一_、简单的打包功能
 -
-webpack支持三种规范的js代码：es6|commonjs|amd,对于前两种规范属于同步模块，第三种是一步模块（在打包的时候会生成新的bundle）。
+webpack支持三种规范的js代码：es6|commonjs|amd,对于前两种规范属于同步模块，第三种是异步模块（在打包的时候会生成新的bundle）。
 命令：webpack --config webpack.config.js entry.js output.js
 （webpack默认使用webpack.config.js配置文件，如果没有需要指定配置文件）
 
