@@ -11,5 +11,9 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "webpack-bundle-analyzer": "^2.9.2"
   }
 }
