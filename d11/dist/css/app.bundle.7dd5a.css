@@ -1,0 +1,56 @@
+html {
+  background: #ff3333;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background: #333333;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bigBox {
+  height: 400px;
+  width: 400px;
+  border: 5px solid #000000;
+  color: #000000;
+}
+
+.bigBox > div {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+
+.bigBox .img1 {
+  background-image: url(/assets/imgs/sprite.png);
+  background-position: -4632px -800px;
+  background-size: 4832px 3762px;
+}
+
+.bigBox .img2 {
+  background-image: url(/assets/imgs/sprite.png);
+  background-position: -4032px 0px;
+  background-size: 4832px 3762px;
+}
+
+.bigBox .img3 {
+  background-image: url(/assets/imgs/sprite.png);
+  background-position: 0px -3024px;
+  background-size: 4832px 3762px;
+}
+
+.bigBox .img4 {
+  background-image: url(/assets/imgs/sprite.png);
+  background-position: -4032px -800px;
+  background-size: 4832px 3762px;
+}
+
+.bigBox .img6 {
+  background-image: url(/assets/imgs/sprite.png);
+  background-position: 0px 0px;
+  background-size: 4832px 3762px;
+}

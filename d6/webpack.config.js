@@ -35,14 +35,11 @@ module.exports = {
                 })
             },
             {
-                test: /\.js/,
+                test: /\.js$/,
+                exclude: /node_modules/,
                 use: [
                     {
-                        loader: 'babel-loader',
-                        options: {
-                            presets: ['env'],
-                            plugins: ['lodash']
-                        }
+                        loader: 'babel-loader'
                     }
                 ]
             }
