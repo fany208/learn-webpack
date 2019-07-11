@@ -81,8 +81,8 @@ _四_、 代码分割和懒加载
 -
 #### 此功能是webpak一直依赖所标榜的一个特性，持续在维护优化中。目的是让用户在更短时间内看到完整的页面。实现此功能并非在配置中，而是改变代码编写方式。
 ##### 1、webpack methods  webpack的内置方法
-- require.ensure(dependencies,callback, errorCallback, chunkName),引入模块蛋不执行，在回调内部再次调用require方法才执行。此方法对原声的promise是有强依赖的，
-- require.include(dependencie)，引入模块蛋不执行，当两个子模块里面都依赖同一个模块，可以将这个模块放到父模块引入，这样在加载子模块时就不会多余加载了
+- require.ensure(dependencies,callback, errorCallback, chunkName),引入模块但不执行，在回调内部再次调用require方法才执行。此方法对原声的promise是有强依赖的，
+- require.include(dependencie)，引入模块但不执行，当两个子模块里面都依赖同一个模块，可以将这个模块放到父模块引入，这样在加载子模块时就不会多余加载了
 ##### 2、ES 2015 Loader spec   webpack根据此规范实现了system import 和dynamic import
 - System.import() -> import();
 - import() -> Promise
