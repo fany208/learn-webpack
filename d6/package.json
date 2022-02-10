@@ -33,7 +33,7 @@
     "glob-all": "^3.1.0",
     "less": "^3.5.0",
     "less-loader": "^4.1.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "postcss": "^6.0.14",
     "postcss-cssnext": "^3.0.2",
     "postcss-loader": "^2.0.9",
