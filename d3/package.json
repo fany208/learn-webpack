@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.11",
-    "webpack": "^3.10.0",
+    "webpack": "^5.75.0",
     "xterm": "^3.14.4"
   }
 }
